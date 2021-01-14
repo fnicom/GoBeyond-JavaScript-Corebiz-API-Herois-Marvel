@@ -52,10 +52,6 @@ search.addEventListener('keyup', e =>{
   if (e.KeyCode === 13) {
    searchHero(e.target.value.trim());
    
- }else {
-
-    alert('no recive enter');
-
  }
 
 });
